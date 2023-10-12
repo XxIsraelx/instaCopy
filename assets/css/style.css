@@ -72,7 +72,7 @@
     position: absolute;
     text-transform: lowercase;
     color: rgb(115, 115, 115);
-    top: -6px;
+    top: 12px;
     width: 50px;
     left: 50%;
     margin-left: -25px;
@@ -158,4 +158,54 @@ footer nav{
     color: #707070;
     font-size: 11px;
     font-weight: 400;
+}
+#copyright{
+    font-size: 11px;
+    color: #707070;
+    font-weight: 400;
+    margin-top: 20px;
+}
+@media screen and (max-width: 875) {
+    #banner-container{
+        display: none;
+    }
+    #main-container{
+        margin-top: 100px;
+        margin-left: 30%;
+
+    }
+}
+@media screen and (max-width: 550px) {
+    #main-container{
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width: 450px) {
+    #main-container{
+        margin-top: 36px;
+    }
+    #main-container{
+        margin-left: 0;
+    }
+    #form-container,
+    #form-box,
+    #register-container,
+    #get-app-container{
+        width: 100%;
+        border: none;
+    }
+    #register-container{
+        margin-top: 100px;
+    }
+    #get-app-container{
+        margin-top: 100px;
+    }
+    footer{
+        width: 80%;
+        text-align: center;
+    }
+    #footer-links li{
+        margin-bottom: 10px;
+        
+    }
 }
